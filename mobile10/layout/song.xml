@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text1s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="i am song"
+        android:background="@color/purple_200"></TextView>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pic1" />
+
+    <Button
+        android:id="@+id/btbChange"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="이미지 변환"
+        ></Button>
+
+</LinearLayout>
